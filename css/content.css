@@ -1,0 +1,97 @@
+.coffee-pic {
+    float: left;
+    margin: 0 18px 18px 0;
+}
+
+
+.paper-pic {
+    float: right;
+    margin-left: 5px;
+}
+
+.jokes {
+    position: relative;
+}
+
+.jokes-images {
+    position: relative;
+
+    width: 457px;
+    height: 190px;
+}
+
+.jokes-images > img:nth-child(1) {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+}
+
+.jokes-images > img:nth-child(2) {
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+}
+
+.jokes-images > img:nth-child(3) {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+}
+
+.jokes-images > img:nth-child(4) {
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+}
+
+.share {
+    position: fixed;
+    top: 90%;
+    right: 0;
+
+    height: 70px;
+    width: 90px;
+
+    border: 1px solid black;
+    background-color: #fbaf5d;
+    text-align: center;
+}
+
+.share > h4 {
+    display: inline-block;
+}
+
+.marker {
+    position: absolute;
+    top: 38px;
+    right: 0;
+
+    width: 110px;
+    height: 35px;
+
+    border: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.front-page > .marker {
+    margin-right: -80px;
+
+    background-color: #f68e56;
+}
+
+.middle-page > .marker {
+    margin-right: -50px;
+
+    background-color: #39b54a;
+}
+
+.back-page > .marker {
+    margin-right: -20px;
+
+    background-color: #00aeef;
+}

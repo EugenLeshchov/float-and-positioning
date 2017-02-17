@@ -1,0 +1,42 @@
+
+.pages {
+    top: 200px;
+    position: relative;
+    width: 600px;
+    margin: auto;
+}
+
+.page {
+    position: absolute;
+    height: 750px;
+    width: 520px;
+
+    padding: 30px;
+
+    border: 2px solid black;
+}
+
+.front-page {
+    z-index: 10;
+
+    background-color: #ebebeb;
+
+}
+
+.middle-page {
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+
+    background-color: #ccc;
+
+}
+
+.back-page {
+    top: 40px;
+    left: 40px;
+    z-index: -1;
+
+    background-color: #acacac;
+
+}
